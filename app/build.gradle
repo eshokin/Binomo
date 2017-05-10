@@ -33,7 +33,7 @@ dependencies {
 
 repositories {
     flatDir {
-        dirs '/libs'
+        dirs 'libs'
     }
     maven { url "http://licensing.scichart.com:8081/artifactory/libs-release-local" }
 }
